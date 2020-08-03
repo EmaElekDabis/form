@@ -1,0 +1,38 @@
+@import 'mixins';
+
+@include global;
+
+form {
+    width: 40%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    @include clearfix;
+
+    input[type='text'], select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    input[type='checkbox'] {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    button {
+        padding: 5px;
+        width: 30%;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        float: right;
+    }
+}

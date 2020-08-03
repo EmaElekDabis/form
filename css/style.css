@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+form {
+  width: 40%;
+  margin: 50px auto;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 20px; }
+  form:before, form:after {
+    content: "";
+    display: table; }
+  form:after {
+    clear: both; }
+  form input[type='text'], form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    margin-bottom: 15px; }
+  form input[type='checkbox'] {
+    margin-bottom: 20px; }
+  form label {
+    font-weight: bold; }
+  form button {
+    padding: 5px;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    float: right; }
+
+/*# sourceMappingURL=style.css.map */
